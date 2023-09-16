@@ -18,12 +18,11 @@ public class ArthematicalOperationsTest {
 		assertEquals(30, sum);
 	}
 	@DataProvider(name="addData")
-	public Object[][] data() {
-		Object[][] testData= new Object[2][2];
-		testData[0][0]=10;
-		testData[0][1]=20;
-//		testData[1][0]=30;
-//		testData[1][1]=40;
+	public Object[] data() {
+		Object[] testData= new Object[2];
+		testData[0]=10;
+		testData[1]=20;
+
 		return testData;
 		
 	}
