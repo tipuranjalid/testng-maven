@@ -1,4 +1,4 @@
-package com.testng;
+package com.testCases;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -45,14 +45,18 @@ public class HRMAppAuto {
 	}
 
 	@AfterMethod
-	void close() {	
+	void close() {
 		driver.close();
 		System.out.println("After method.....");
 	}
 
 	@DataProvider(name = "loginData1")
 	String[][] loginData() {
-		String[][] data = { { "Admin1", "admin12348" }, { "Admin", "admin123" }, { "Admin1", "admin123" } };
+		String[][] data = { 
+				{ "Admin1", "admin12348" ,"OrangeHRM"},
+				{ "Admin", "admin123","OrangeHRM" },
+				{ "Admin1", "admin123","OrangeHRM" } 
+				};
 		return data;
 	}
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.HRMAppAuto">
+      <class name="com.testCases.TC_003_LeavePage">
         <methods>
-          <include name="login"/>
-          <include name="close"/>
-          <include name="webDriverLaunch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testLeavePage"/>
         </methods>
-      </class> <!-- com.testng.HRMAppAuto -->
+      </class> <!-- com.testCases.TC_003_LeavePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

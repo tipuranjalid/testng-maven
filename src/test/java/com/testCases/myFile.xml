@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="mySuite">
 	<test name="myTest">
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.testng.HRMAppAuto"></class>
-			<class name="com.testng.NewTestng"></class>
+			<class name="com.testng.ParallelTestingXML"></class>			
 		</classes>
 	</test>
 </suite>

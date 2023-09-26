@@ -1,4 +1,4 @@
-package com.test;
+package com.pageObjects;
 
 
 import static org.junit.Assert.assertEquals;
