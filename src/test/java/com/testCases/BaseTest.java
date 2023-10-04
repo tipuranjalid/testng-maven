@@ -16,7 +16,10 @@ public class BaseTest {
 	public Logger logger;
 	@BeforeClass
 	public void setUp() {
-		logger= LogManager.getLogger(this.getClass());
+		System.setProperty("log4j2.xml","C:\\Users\\ctipuran\\eclipse-workspace\\MavenProject\\src\\test\\resources\\log4j2.xml");
+		logger= LogManager.getRootLogger();
+		logger.info("**************");
+		System.out.println("i am in base");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -29,7 +32,5 @@ public class BaseTest {
 		driver.close();
 	}
 	
-//	public String randomString() {
-//		String generatedString= 
-//	}
+
 }
