@@ -16,7 +16,7 @@ public class BaseTest {
 	public Logger logger;
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("log4j2.xml","C:\\Users\\ctipuran\\eclipse-workspace\\MavenProject\\src\\test\\resources\\log4j2.xml");
+		System.setProperty("log4j2.configurationFile","./log4j2.xml");
 		logger= LogManager.getRootLogger();
 		logger.info("**************");
 		System.out.println("i am in base");
