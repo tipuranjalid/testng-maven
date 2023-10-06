@@ -13,6 +13,8 @@ public class LeavePage extends BasePage {
 	@FindBy(xpath="//*[text()='Leave']")
 	WebElement leave;
 	
+	
+	
 	//Action methods
 	public void clickLeave() {
 		leave.click();

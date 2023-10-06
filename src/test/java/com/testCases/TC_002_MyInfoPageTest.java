@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.pageObjects.MyInfoPage;
 
-public class TC_002_MyInfoPage extends BaseTest {
+public class TC_002_MyInfoPageTest extends BaseTest {
 	@Test
 	void testMyInfoPage() {
 		try {
