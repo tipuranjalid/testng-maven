@@ -52,10 +52,7 @@ public class ExtentReportManager implements ITestListener{
 		test.log(Status.SKIP, "Test case skipped is....."+result.getName());
 		
 	}
-	public void onFinish(ITestResult result) {
-		extent.flush();
-		
-	}
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -68,7 +65,7 @@ public class ExtentReportManager implements ITestListener{
 	}
 	@Override
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		extent.flush();
 		
 	}
 	

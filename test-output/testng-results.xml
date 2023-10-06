@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T15:23:21 IST" name="Default suite" finished-at="2023-10-06T15:24:05 IST" duration-ms="43475">
+  <suite started-at="2023-10-06T15:40:42 IST" name="Default suite" finished-at="2023-10-06T15:41:29 IST" duration-ms="47077">
     <groups>
     </groups>
-    <test started-at="2023-10-06T15:23:21 IST" name="Default test" finished-at="2023-10-06T15:24:05 IST" duration-ms="43475">
+    <test started-at="2023-10-06T15:40:42 IST" name="Default test" finished-at="2023-10-06T15:41:29 IST" duration-ms="47077">
       <class name="com.testCases.TC_001_LoginHRM_AppTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:23:22 IST" name="setUp" finished-at="2023-10-06T15:23:29 IST" duration-ms="7767" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:40:42 IST" name="setUp" finished-at="2023-10-06T15:40:54 IST" duration-ms="12025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:23:31 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:23:35 IST" duration-ms="4380" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:40:56 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:41:01 IST" duration-ms="5675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:23:35 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:23:47 IST" duration-ms="11828" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:41:01 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:41:13 IST" duration-ms="11426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:23:47 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:23:59 IST" duration-ms="11990" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:41:13 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:41:25 IST" duration-ms="11931" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:23:59 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:24:04 IST" duration-ms="5635" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:41:25 IST" name="testLoginPage" data-provider="loginData" finished-at="2023-10-06T15:41:28 IST" duration-ms="3729" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:24:04 IST" name="tearDown" finished-at="2023-10-06T15:24:05 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_001_LoginHRM_AppTest@169bb4dd]" started-at="2023-10-06T15:41:28 IST" name="tearDown" finished-at="2023-10-06T15:41:29 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
