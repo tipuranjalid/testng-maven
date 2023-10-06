@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCases.TC_003_LeavePage">
+      <class name="com.testCases.TC_001_LoginHRM_AppTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testLeavePage"/>
+          <include name="testLoginPage" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.testCases.TC_003_LeavePage -->
+      </class> <!-- com.testCases.TC_001_LoginHRM_AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

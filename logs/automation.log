@@ -1,0 +1,283 @@
+18:40:09.605 [main] INFO   - **************
+18:40:29.002 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:40:29.048 [main] INFO   - ***** Setting up login data******
+18:40:29.397 [main] INFO   - ***** Clicking on login button ******
+18:40:31.122 [main] INFO   - ***** Validating expected results******
+18:40:32.873 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:40:32.906 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:40:32.907 [main] INFO   - ***** Setting up login data******
+18:40:34.002 [main] INFO   - ***** Clicking on login button ******
+18:40:44.987 [main] INFO   - ***** Validating expected results******
+18:40:44.988 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:40:45.000 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:40:45.002 [main] INFO   - ***** Setting up login data******
+18:40:45.311 [main] INFO   - ***** Clicking on login button ******
+18:40:56.930 [main] INFO   - ***** Validating expected results******
+18:40:56.930 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:40:56.939 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:40:56.940 [main] INFO   - ***** Setting up login data******
+18:40:57.468 [main] INFO   - ***** Clicking on login button ******
+18:40:59.539 [main] INFO   - ***** Validating expected results******
+18:41:01.308 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:52:05.258 [main] INFO   - **************
+18:52:15.222 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:52:15.248 [main] INFO   - ***** Setting up login data******
+18:52:15.511 [main] INFO   - ***** Clicking on login button ******
+18:52:17.337 [main] INFO   - ***** Validating expected results******
+18:52:19.095 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:52:19.102 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:52:19.103 [main] INFO   - ***** Setting up login data******
+18:52:19.711 [main] INFO   - ***** Clicking on login button ******
+18:52:30.633 [main] INFO   - ***** Validating expected results******
+18:52:30.633 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:52:30.639 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:52:30.641 [main] INFO   - ***** Setting up login data******
+18:52:31.402 [main] INFO   - ***** Clicking on login button ******
+18:52:43.409 [main] INFO   - ***** Validating expected results******
+18:52:43.410 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:52:43.415 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:52:43.416 [main] INFO   - ***** Setting up login data******
+18:52:43.700 [main] INFO   - ***** Clicking on login button ******
+18:52:45.644 [main] INFO   - ***** Validating expected results******
+18:52:47.861 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:54:07.554 [main] INFO   - **************
+18:54:17.528 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:54:17.563 [main] INFO   - ***** Setting up login data******
+18:54:17.853 [main] INFO   - ***** Clicking on login button ******
+18:54:19.463 [main] INFO   - ***** Validating expected results******
+18:54:21.294 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:54:21.300 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:54:21.301 [main] INFO   - ***** Setting up login data******
+18:54:21.951 [main] INFO   - ***** Clicking on login button ******
+18:54:32.788 [main] INFO   - ***** Validating expected results******
+18:54:32.788 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:54:32.793 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:54:32.794 [main] INFO   - ***** Setting up login data******
+18:54:33.160 [main] INFO   - ***** Clicking on login button ******
+18:54:44.662 [main] INFO   - ***** Validating expected results******
+18:54:44.663 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+18:54:44.671 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+18:54:44.672 [main] INFO   - ***** Setting up login data******
+18:54:45.043 [main] INFO   - ***** Clicking on login button ******
+18:54:47.298 [main] INFO   - ***** Validating expected results******
+18:54:49.544 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:39:26.203 [main] INFO   - **************
+14:42:17.741 [main] INFO   - **************
+14:42:37.990 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:42:38.028 [main] INFO   - ***** Setting up login data******
+14:42:38.280 [main] INFO   - ***** Clicking on login button ******
+14:42:40.851 [main] INFO   - ***** Validating expected results******
+14:42:44.135 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:42:44.183 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:42:44.185 [main] INFO   - ***** Setting up login data******
+14:42:44.886 [main] INFO   - ***** Clicking on login button ******
+14:42:55.854 [main] INFO   - ***** Validating expected results******
+14:42:55.854 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:42:55.858 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:42:55.859 [main] INFO   - ***** Setting up login data******
+14:42:56.137 [main] INFO   - ***** Clicking on login button ******
+14:43:08.072 [main] INFO   - ***** Validating expected results******
+14:43:08.072 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:43:08.076 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:43:08.077 [main] INFO   - ***** Setting up login data******
+14:43:08.325 [main] INFO   - ***** Clicking on login button ******
+14:43:10.645 [main] INFO   - ***** Validating expected results******
+14:43:13.520 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:45:47.816 [main] INFO   - **************
+14:45:56.645 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:45:56.676 [main] INFO   - ***** Setting up login data******
+14:45:56.941 [main] INFO   - ***** Clicking on login button ******
+14:45:58.891 [main] INFO   - ***** Validating expected results******
+14:46:01.898 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:46:01.968 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:46:01.969 [main] INFO   - ***** Setting up login data******
+14:46:03.125 [main] INFO   - ***** Clicking on login button ******
+14:46:14.228 [main] INFO   - ***** Validating expected results******
+14:46:14.229 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:46:14.234 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:46:14.235 [main] INFO   - ***** Setting up login data******
+14:46:14.629 [main] INFO   - ***** Clicking on login button ******
+14:46:26.485 [main] INFO   - ***** Validating expected results******
+14:46:26.486 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:46:26.496 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:46:26.497 [main] INFO   - ***** Setting up login data******
+14:46:27.169 [main] INFO   - ***** Clicking on login button ******
+14:46:29.679 [main] INFO   - ***** Validating expected results******
+14:46:32.121 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:50:41.022 [main] INFO   - **************
+14:50:50.593 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:50:50.621 [main] INFO   - ***** Setting up login data******
+14:50:50.873 [main] INFO   - ***** Clicking on login button ******
+14:50:52.769 [main] INFO   - ***** Validating expected results******
+14:50:55.533 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:50:55.569 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:50:55.570 [main] INFO   - ***** Setting up login data******
+14:50:56.372 [main] INFO   - ***** Clicking on login button ******
+14:51:07.362 [main] INFO   - ***** Validating expected results******
+14:51:07.362 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:51:07.369 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:51:07.369 [main] INFO   - ***** Setting up login data******
+14:51:07.780 [main] INFO   - ***** Clicking on login button ******
+14:51:19.486 [main] INFO   - ***** Validating expected results******
+14:51:19.486 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:51:19.490 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:51:19.491 [main] INFO   - ***** Setting up login data******
+14:51:19.725 [main] INFO   - ***** Clicking on login button ******
+14:51:22.512 [main] INFO   - ***** Validating expected results******
+14:51:25.833 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+14:52:58.100 [main] INFO   - **************
+14:53:07.195 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:53:07.220 [main] INFO   - ***** Setting up login data******
+14:53:07.471 [main] INFO   - ***** Clicking on login button ******
+14:53:10.174 [main] INFO   - ***** Validating expected results******
+14:53:20.348 [main] ERROR  - ***** Test Failed******
+14:53:20.398 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:53:20.399 [main] INFO   - ***** Setting up login data******
+14:53:30.463 [main] ERROR  - ***** Test Failed******
+14:53:30.475 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:53:30.477 [main] INFO   - ***** Setting up login data******
+14:53:40.514 [main] ERROR  - ***** Test Failed******
+14:53:40.517 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:53:40.518 [main] INFO   - ***** Setting up login data******
+14:53:50.562 [main] ERROR  - ***** Test Failed******
+14:55:05.751 [main] INFO   - **************
+14:55:16.029 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:55:16.056 [main] INFO   - ***** Setting up login data******
+14:55:16.336 [main] INFO   - ***** Clicking on login button ******
+14:55:18.112 [main] INFO   - ***** Validating expected results******
+14:55:28.243 [main] ERROR  - ***** Test Failed******
+14:55:28.271 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:55:28.271 [main] INFO   - ***** Setting up login data******
+14:55:38.321 [main] ERROR  - ***** Test Failed******
+14:55:38.339 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:55:38.340 [main] INFO   - ***** Setting up login data******
+14:55:48.427 [main] ERROR  - ***** Test Failed******
+14:55:48.440 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+14:55:48.442 [main] INFO   - ***** Setting up login data******
+14:55:58.469 [main] ERROR  - ***** Test Failed******
+15:01:10.840 [main] INFO   - **************
+15:01:20.329 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:01:20.380 [main] INFO   - ***** Setting up login data******
+15:01:20.838 [main] INFO   - ***** Clicking on login button ******
+15:01:22.715 [main] INFO   - ***** Validating expected results******
+15:01:25.355 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:01:25.383 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:01:25.384 [main] INFO   - ***** Setting up login data******
+15:01:26.085 [main] INFO   - ***** Clicking on login button ******
+15:01:37.142 [main] INFO   - ***** Validating expected results******
+15:01:37.143 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:01:37.159 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:01:37.161 [main] INFO   - ***** Setting up login data******
+15:01:37.605 [main] INFO   - ***** Clicking on login button ******
+15:01:50.380 [main] INFO   - ***** Validating expected results******
+15:01:50.381 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:01:50.390 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:01:50.392 [main] INFO   - ***** Setting up login data******
+15:01:50.808 [main] INFO   - ***** Clicking on login button ******
+15:01:52.848 [main] INFO   - ***** Validating expected results******
+15:01:54.484 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:13:37.317 [main] INFO   - **************
+15:13:46.239 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:13:46.283 [main] INFO   - ***** Setting up login data******
+15:13:46.735 [main] INFO   - ***** Clicking on login button ******
+15:13:48.680 [main] INFO   - ***** Validating expected results******
+15:13:50.720 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:13:50.769 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:13:50.770 [main] INFO   - ***** Setting up login data******
+15:13:51.346 [main] INFO   - ***** Clicking on login button ******
+15:14:02.460 [main] INFO   - ***** Validating expected results******
+15:14:02.461 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:14:02.478 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:14:02.480 [main] INFO   - ***** Setting up login data******
+15:14:02.820 [main] INFO   - ***** Clicking on login button ******
+15:14:14.553 [main] INFO   - ***** Validating expected results******
+15:14:14.553 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:14:14.557 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:14:14.558 [main] INFO   - ***** Setting up login data******
+15:14:14.798 [main] INFO   - ***** Clicking on login button ******
+15:14:17.034 [main] INFO   - ***** Validating expected results******
+15:14:20.138 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:15:42.524 [main] INFO   - **************
+15:15:51.645 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:15:51.685 [main] INFO   - ***** Setting up login data******
+15:15:52.045 [main] INFO   - ***** Clicking on login button ******
+15:15:53.639 [main] INFO   - ***** Validating expected results******
+15:15:55.929 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:15:55.993 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:15:55.995 [main] INFO   - ***** Setting up login data******
+15:15:56.695 [main] INFO   - ***** Clicking on login button ******
+15:16:07.705 [main] INFO   - ***** Validating expected results******
+15:16:07.705 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:16:07.710 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:16:07.711 [main] INFO   - ***** Setting up login data******
+15:16:07.997 [main] INFO   - ***** Clicking on login button ******
+15:16:19.715 [main] INFO   - ***** Validating expected results******
+15:16:19.716 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:16:19.725 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:16:19.726 [main] INFO   - ***** Setting up login data******
+15:16:20.213 [main] INFO   - ***** Clicking on login button ******
+15:16:22.633 [main] INFO   - ***** Validating expected results******
+15:16:23.894 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:18:52.035 [main] INFO   - **************
+15:19:02.807 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:19:02.840 [main] INFO   - ***** Setting up login data******
+15:19:03.100 [main] INFO   - ***** Clicking on login button ******
+15:19:05.699 [main] INFO   - ***** Validating expected results******
+15:19:08.019 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:19:08.085 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:19:08.086 [main] INFO   - ***** Setting up login data******
+15:19:08.717 [main] INFO   - ***** Clicking on login button ******
+15:19:19.845 [main] INFO   - ***** Validating expected results******
+15:19:19.846 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:19:19.858 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:19:19.861 [main] INFO   - ***** Setting up login data******
+15:19:20.548 [main] INFO   - ***** Clicking on login button ******
+15:19:32.308 [main] INFO   - ***** Validating expected results******
+15:19:32.309 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:19:32.318 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:19:32.319 [main] INFO   - ***** Setting up login data******
+15:19:32.826 [main] INFO   - ***** Clicking on login button ******
+15:19:35.050 [main] INFO   - ***** Validating expected results******
+15:19:37.960 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:21:27.626 [main] INFO   - **************
+15:21:36.492 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:21:36.520 [main] INFO   - ***** Setting up login data******
+15:21:36.880 [main] INFO   - ***** Clicking on login button ******
+15:21:38.867 [main] INFO   - ***** Validating expected results******
+15:21:40.811 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:21:40.828 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:21:40.828 [main] INFO   - ***** Setting up login data******
+15:21:42.029 [main] INFO   - ***** Clicking on login button ******
+15:21:53.027 [main] INFO   - ***** Validating expected results******
+15:21:53.027 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:21:53.048 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:21:53.050 [main] INFO   - ***** Setting up login data******
+15:21:53.443 [main] INFO   - ***** Clicking on login button ******
+15:22:05.661 [main] INFO   - ***** Validating expected results******
+15:22:05.661 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:22:05.665 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:22:05.666 [main] INFO   - ***** Setting up login data******
+15:22:05.918 [main] INFO   - ***** Clicking on login button ******
+15:22:08.360 [main] INFO   - ***** Validating expected results******
+15:22:10.454 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:23:22.585 [main] INFO   - **************
+15:23:31.115 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:23:31.162 [main] INFO   - ***** Setting up login data******
+15:23:31.668 [main] INFO   - ***** Clicking on login button ******
+15:23:33.701 [main] INFO   - ***** Validating expected results******
+15:23:35.473 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:23:35.496 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:23:35.497 [main] INFO   - ***** Setting up login data******
+15:23:36.258 [main] INFO   - ***** Clicking on login button ******
+15:23:47.321 [main] INFO   - ***** Validating expected results******
+15:23:47.322 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:23:47.332 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:23:47.334 [main] INFO   - ***** Setting up login data******
+15:23:47.617 [main] INFO   - ***** Clicking on login button ******
+15:23:59.318 [main] INFO   - ***** Validating expected results******
+15:23:59.319 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
+15:23:59.327 [main] INFO   - ***** Started TC_001_LoginHRM_AppTest ****** 
+15:23:59.328 [main] INFO   - ***** Setting up login data******
+15:23:59.894 [main] INFO   - ***** Clicking on login button ******
+15:24:02.209 [main] INFO   - ***** Validating expected results******
+15:24:04.958 [main] INFO   - ***** Finished TC_001_LoginHRM_AppTest ******
