@@ -1,5 +1,9 @@
 package com.testCases;
 
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -14,12 +18,17 @@ public class ExtentReportManager implements ITestListener{
 
 	public ExtentSparkReporter sparkReporter; //UI of the report
 	public ExtentReports extent; //Populate common info on the report
-	public ExtentTest test; //creating TC entries and update status of the test methods 
+	public ExtentTest test; //creating TC entries and update status of the test methods
+	String repName;
 	
 	public void onStart(ITestContext context) {
-		System.out.println(System.getProperty("user.dir"));
+		String timeStamp= new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		repName="Test-Report-"+timeStamp+".html";
+		
+//		System.out.println(System.getProperty("user.dir"));
 //		sparkReporter= new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/myReport.html");
-		sparkReporter= new ExtentSparkReporter("reports/myReport.html");
+		sparkReporter= new ExtentSparkReporter("\\.reports"+repName); //specify location of the report
+		
 		sparkReporter.config().setDocumentTitle("Automation Report"); //Title of report
 		sparkReporter.config().setReportName("Functional Testing"); //Name of the report
 		sparkReporter.config().setTheme(Theme.STANDARD);
@@ -45,6 +54,13 @@ public class ExtentReportManager implements ITestListener{
 		test= extent.createTest(result.getName()); //this will create the new entry in the report
 		test.log(Status.FAIL, "Test case failed is....."+result.getName());
 		test.log(Status.FAIL, "Test case failed cause is....."+result.getThrowable());
+		
+		try {
+			String imgPath= new BaseTest().captureScreeen(result.getName());
+			test.addScreenCaptureFromPath(imgPath);
+		}catch(IOException IE) {
+			IE.printStackTrace();
+		}
 		
 	}
 	public void onTestSkipped(ITestResult result) {

@@ -2,11 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="com.testCases.MyListner"></listener>
+		<listener class-name="com.testCases.ExtentReportManager"></listener>
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testCases.NewTestng"/>      
+      <class name="com.testCases.TC_001_LoginHRM_AppTest"/>   
+      <class name= "com.testCases.TC_002_MyInfoPageTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

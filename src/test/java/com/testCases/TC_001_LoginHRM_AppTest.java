@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.pageObjects.LoginPage;
 
 import utilities.DataProviders;
-@Listeners(com.testCases.ExtentReportManager.class)
+//@Listeners(com.testCases.ExtentReportManager.class)
 public class TC_001_LoginHRM_AppTest extends BaseTest {
 	@Test(dataProvider = "loginData", dataProviderClass = DataProviders.class)
 	void testLoginPage(String userN, String pswd, String exp) {
