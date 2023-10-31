@@ -5,6 +5,31 @@
 	<groupId>MavenProject</groupId>
 	<artifactId>MavenProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.0.0-M7</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -56,8 +81,12 @@
 			<artifactId>log4j-core</artifactId>
 			<version>3.0.0-alpha1</version>
 		</dependency>
-
-		
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
 
 
 	</dependencies>
