@@ -44,20 +44,22 @@ public class BaseTest {
 		driver.close();
 	}
 	
-	public String captureScreeen(String tname) throws IOException {
-		String timeStamp= new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
-		TakesScreenshot ts= (TakesScreenshot) driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		String destination= System.getProperty("user.dir")+"\\Screenshots"+tname+"-"+timeStamp+".png";
-		try {
-		FileUtils.copyFile(source, new File(destination));
-		}catch(Exception e) {
-			e.getMessage();
-		}
-		
-		return destination;
-		
-	}
+//	public String captureScreeen(String tname) throws IOException {
+//		String timeStamp= new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//		TakesScreenshot ts= (TakesScreenshot) driver;
+//		File source = ts.getScreenshotAs(OutputType.FILE);
+//		System.out.println(System.getProperty("user.dir"));
+//		String destination= System.getProperty("user.dir")+"\\Screenshots"+tname+"-"+timeStamp+".png";
+//		try {
+//		FileUtils.copyFile(source, new File(destination));
+//		}catch(Exception e) {
+//			e.getMessage();
+//			e.printStackTrace();
+//		}
+//		
+//		return destination;
+//		
+//	}
 	
 
 }

@@ -2,7 +2,7 @@ package com.testCases;
 
 import java.time.Duration;
 
-import org.junit.jupiter.api.Assertions;
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
+
 
 public class ParallelTestingXML extends BaseTest{
 	
@@ -35,15 +35,15 @@ public class ParallelTestingXML extends BaseTest{
 	void logoTest() {
 		try {
 		boolean status = driver.findElement(By.xpath("//img[@alt='profile picture']")).isDisplayed();
-		Assertions.assertEquals(status, true);
+		Assert.assertEquals(status, true);
 		}catch(Exception e) {
-			Assertions.fail();
+			Assert.fail();
 		}
 	}
 
 	@Test(priority = 3)
 	void titleTest() {
-		Assertions.assertEquals(driver.getTitle(), "OrangeHRM");
+		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 	}
 //	@Test(priority=4)
 	void testLeaveInMenu() {
@@ -53,7 +53,7 @@ public class ParallelTestingXML extends BaseTest{
 		driver.findElement(By.xpath("//*[contains(text(),'Status')]/parent::div//following-sibling::div//*[@class='oxd-select-text-input']")).click();
 		driver.findElement(By.xpath("//*[@type='submit']")).click();
 		boolean records=driver.findElement(By.xpath("//*[@class=\"oxd-text oxd-text--span\"]")).isDisplayed();
-		Assertions.assertEquals(records, true);
+		Assert.assertEquals(records, true);
 	}
 	@Test(priority=5)
 	void textMyInfo() throws Exception {

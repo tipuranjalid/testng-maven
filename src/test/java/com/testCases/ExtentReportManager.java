@@ -55,12 +55,12 @@ public class ExtentReportManager implements ITestListener{
 		test.log(Status.FAIL, "Test case failed is....."+result.getName());
 		test.log(Status.FAIL, "Test case failed cause is....."+result.getThrowable());
 		
-		try {
-			String imgPath= new BaseTest().captureScreeen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
-		}catch(IOException IE) {
-			IE.printStackTrace();
-		}
+//		try {
+//			String imgPath= new BaseTest().captureScreeen(result.getName());
+//			test.addScreenCaptureFromPath(imgPath);
+//		}catch(IOException IE) {
+//			IE.printStackTrace();
+//		}
 		
 	}
 	public void onTestSkipped(ITestResult result) {
