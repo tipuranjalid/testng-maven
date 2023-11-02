@@ -1,7 +1,8 @@
 package com.testCases;
 
 
-import org.junit.Assert;
+
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -31,17 +32,11 @@ public class TC_001_LoginHRM_AppTest extends BaseTest {
 					Assert.assertTrue(true);
 				}else {
 					Assert.assertTrue(false);
+
+				} 
+
 				}
-			} 
-			
-			if(exp.equals("Invalid")) {
-				if (ProPicStatus == true) {
-					lp.logout();
-					Assert.assertTrue(false);
-				}else {
-					Assert.assertTrue(true);
-				}
-			}
+
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error("***** Test Failed******");

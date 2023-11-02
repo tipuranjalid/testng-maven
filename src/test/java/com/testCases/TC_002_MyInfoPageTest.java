@@ -9,7 +9,7 @@ import utilities.DataProviders;
 
 public class TC_002_MyInfoPageTest extends BaseTest {
 	@Test(dataProvider = "loginData", dataProviderClass = DataProviders.class)
-	void testMyInfoPage(String userN, String pswd) {
+	void testMyInfoPage(String userN, String pswd, String exp) {
 		logger.info("************* started TC_002_MyInfoPageTest test ***************");
 		try {
 			LoginPage lp = new LoginPage(driver);

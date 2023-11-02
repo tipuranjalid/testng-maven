@@ -2,22 +2,18 @@ package com.testCases;
 
 import java.time.Duration;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
+
 
 public class ParallelTestingXML extends BaseTest{
 	
@@ -37,7 +33,7 @@ public class ParallelTestingXML extends BaseTest{
 		boolean status = driver.findElement(By.xpath("//img[@alt='profile picture']")).isDisplayed();
 		Assert.assertEquals(status, true);
 		}catch(Exception e) {
-			Assertions.fail();
+			Assert.fail();
 		}
 	}
 
