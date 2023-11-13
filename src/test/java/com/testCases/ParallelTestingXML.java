@@ -57,7 +57,7 @@ public class ParallelTestingXML extends BaseTest{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath("//*[text()='My Info']")).click();
 		WebElement firstNameEle = driver.findElement(By.xpath("//input[@name='firstName']"));
-		wait.until(ExpectedConditions.elementToBeClickable(firstNameEle));
+		// wait.until(ExpectedConditions.elementToBeClickable(firstNameEle));
 		
 //		firstNameEle.clear();
 		System.out.println("Text in first Name"+firstNameEle.getText());
