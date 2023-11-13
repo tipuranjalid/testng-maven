@@ -53,7 +53,8 @@ public class ParallelTestingXML extends BaseTest{
 	}
 	@Test(priority=5)
 	void textMyInfo() throws Exception {
-		Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+		//Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath("//*[text()='My Info']")).click();
 		WebElement firstNameEle = driver.findElement(By.xpath("//input[@name='firstName']"));
 		wait.until(ExpectedConditions.elementToBeClickable(firstNameEle));
