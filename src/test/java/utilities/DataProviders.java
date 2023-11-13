@@ -3,10 +3,12 @@ package utilities;
 import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 
 public class DataProviders {
 	@DataProvider(name="loginData")
+	@Test
 	public String[][] getData() throws IOException {
 		//taking excel from test data
 		String file=".\\TestData\\OrangeHRMTestData.xlsx";
