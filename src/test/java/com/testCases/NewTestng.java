@@ -12,7 +12,7 @@ public class NewTestng extends BaseTest {
 		try {
 		LoginPage loginPg= new LoginPage(driver);
 		loginPg.setUserName("Admin");
-		loginPg.setPassword("Admin123");
+		loginPg.setPassword("admin123");
 		loginPg.loginClick();
 		boolean ProPicStatus = loginPg.cnfmProfilePic();
 		System.out.println(ProPicStatus);

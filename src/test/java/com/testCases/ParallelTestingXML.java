@@ -68,7 +68,7 @@ public class ParallelTestingXML extends BaseTest{
 		}
 		System.out.println(bcksps);
 		driver.findElement(By.xpath("//input[@name='lastName']")).clear();
-		Thread.sleep(Duration.ofSeconds(10));
+		Thread.sleep(Duration.ofSeconds(Long.valueOf("10")));
 		firstNameEle.click();
 		firstNameEle.sendKeys(bcksps);
 		firstNameEle.sendKeys("hhaaaaaaaaaaaaaaaaaaaa");
